@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 import 'package:meditation_app_ui/constants/constants.dart';
 
 class BottomIcons extends StatefulWidget {
-  final Function onPressed;
+  final VoidCallback onPressed;
   final bool isSelected;
   final String text;
   final IconData icons;
 
   BottomIcons({
-    @required this.onPressed,
-    @required this.isSelected,
-    @required this.icons,
-    @required this.text,
+    required this.onPressed,
+    required this.isSelected,
+    required this.icons,
+    required this.text,
   });
 
   @override
